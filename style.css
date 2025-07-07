@@ -1,0 +1,67 @@
+body {
+  color: white;
+  background: black;
+  margin: 0px;
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 100px;
+    background-image: url("https://wallpapercave.com/uwp/uwp4313039.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: blue;
+}
+
+.chamada {
+   background: rgba(2, 0, 3, 0.849);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-left: 22;
+    padding-right: 23;
+}
+
+div {
+    margin-right: 120px;
+    color: rgb(255, 255, 249, 0.89)
+}
+
+p {
+    color: rgb(139, 139, 138);
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+h1 {
+  font-size: 40px;
+}
+img {
+  height: 200px;
+}
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+.categoria {
+  background: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green
+}
